@@ -1,0 +1,79 @@
+@import "mixin.scss";
+
+.reviews {
+  padding: 30px;
+
+  text-align: left;
+
+  background-image: url('../img/zigzag-line.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.reviews__title {
+  margin: 0;
+}
+
+.reviews__text {
+
+  @include font-regular;
+  @include font-size(15px, 30px);
+
+  color: #444444;
+}
+
+.reviews__username {
+  padding: 0;
+  margin: 0;
+}
+
+.reviews__nickname {
+  padding: 0;
+  margin: 0;
+
+  @include font-regular;
+  color: #444444;
+}
+
+.reviews__button{
+  display: flex;
+  margin-bottom: 10px;
+  align-items: stretch;
+  justify-content: center;
+  font-size: 0;
+
+}
+
+.reviews__button--navigation {
+  width: 130px;
+  margin: 0;
+  padding: 15px;
+
+  border-color: #ececec;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.reviews__button--left {
+  background-image: url('../img/button-next.svg');
+  background-repeat: no-repeat;
+  background-position:center;
+  transform: rotate(180deg);
+
+
+
+}
+
+.reviews__button--right{
+  background-image: url('../img/button-next.svg');
+  background-repeat: no-repeat;
+  background-position:center;
+}

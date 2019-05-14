@@ -1,0 +1,60 @@
+@import "mixin.scss";
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  text-align: left;
+}
+
+.contacts__title {
+  margin: 0;
+}
+
+.contacts-table {
+  @include font-regular;
+  @include font-size(15px, 30px);
+}
+
+.contacts-table__column--left {
+  padding: 0;
+  width: 80px;
+
+  vertical-align: top;
+}
+
+.contacts-table__email {
+  color: #000000;
+  text-decoration-color: #63d1bb;
+
+  &:hover,
+  &:focus {
+    color: #63d1bb;
+  }
+
+  &:active {
+    color: lighten(#63d1bb, 30%);
+    text-decoration-color: lighten(#63d1bb, 30%);
+  }
+}
+
+.contacts__button {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.contacts__button--link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts-map {
+  margin: 20px -30px;
+
+  height: 450px;
+  background-image: url('../img/map-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: 320px;
+}

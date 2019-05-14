@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+  .page-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-footer__logo {
+    display: block; }
+  .page-footer__logo--img path:hover {
+    fill: #46c1ae; }
+  .page-footer__logo--img path:active {
+    fill: #46c1ae;
+    opacity: 0.3; }
+  .social-networks__item,
+  .page-footer__made-in {
+    padding: 0; }
+  .social-networks__link--facebook,
+  .social-networks__link--instagram,
+  .social-networks__link--twitter,
+  .made-in__logo--htmlacademy {
+    padding-left: 30px; } }

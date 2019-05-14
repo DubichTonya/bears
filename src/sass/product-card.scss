@@ -1,0 +1,66 @@
+@import "mixin.scss";
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include font-regular;
+  padding: 30px;
+
+  background-image: url('../img/zigzag-line.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+.product-card--wrapper {
+  text-align: left;
+}
+
+.product-card__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  @include font-size(25px, 30px);
+  text-align: left;
+}
+
+.product-card__title--subtitle {
+  text-transform: uppercase;
+  color: #63d1bb;
+  @include font-size(17px, 24px);
+  font-weight: 600;
+}
+
+.product-card__image {
+  align-self: center;
+}
+
+.product-card__table {
+  width: 100%;
+  margin-bottom: 30px;
+
+  border-collapse: collapse;
+  @include font-size (15px, 20px)
+
+}
+
+.product-card__table--row {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.product-card__table--columnLeft {
+  width: 100px;
+  padding: 10px 0;
+}
+
+
+.product-card__price {
+  text-align: center;
+}
+
+.product-card__button {
+  text-align: center;
+}

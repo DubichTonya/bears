@@ -1,0 +1,59 @@
+.about-us {
+  padding: 30px;
+  text-align: left; }
+
+.about-us__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px; }
+
+.about-us__item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding: 60px 0px 25px; }
+
+.about-us-link {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: inherit;
+  text-decoration: none; }
+  .about-us-link:hover, .about-us-link:focus {
+    opacity: 0.6; }
+  .about-us-link:active {
+    opacity: 0.3; }
+
+.about-us__item--1 {
+  background-image: url("../img/about-us-icon-1.svg");
+  background-repeat: no-repeat;
+  background-position: top left; }
+
+.about-us__item--2 {
+  background-image: url("../img/about-us-icon-2.svg");
+  background-repeat: no-repeat;
+  background-position: top left; }
+
+.about-us__item--3 {
+  background-image: url("../img/about-us-icon-3.svg");
+  background-repeat: no-repeat;
+  background-position: top left; }
+
+.about-us__item--4 {
+  background-image: url("../img/about-us-icon-4.svg");
+  background-repeat: no-repeat;
+  background-position: top left; }
+
+.about-us__item--5 {
+  background-image: url("../img/about-us-icon-5.svg");
+  background-repeat: no-repeat;
+  background-position: top left; }
+
+.about-us__item--6 {
+  background-image: url("../img/about-us-icon-6.svg");
+  background-repeat: no-repeat;
+  background-position: top left; }

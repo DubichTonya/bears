@@ -1,0 +1,57 @@
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  text-align: left; }
+
+.contacts__title {
+  margin: 0; }
+
+.contacts-table {
+  font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px; }
+
+.contacts-table__column--left {
+  padding: 0;
+  width: 80px;
+  vertical-align: top; }
+
+.contacts-table__email {
+  color: #000000;
+  -webkit-text-decoration-color: #63d1bb;
+          text-decoration-color: #63d1bb; }
+  .contacts-table__email:hover, .contacts-table__email:focus {
+    color: #63d1bb; }
+  .contacts-table__email:active {
+    color: #d9f4ef;
+    -webkit-text-decoration-color: #d9f4ef;
+            text-decoration-color: #d9f4ef; }
+
+.contacts__button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center; }
+
+.contacts__button--link {
+  text-decoration: none;
+  color: inherit; }
+
+.contacts-map {
+  margin: 20px -30px;
+  height: 450px;
+  background-image: url("../img/map-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 320px; }

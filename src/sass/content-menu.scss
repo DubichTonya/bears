@@ -1,0 +1,76 @@
+@import "mixin.scss";
+.content-menu__link {
+  @include font-size(19px, 24px);
+  color: #ffffff;
+  text-decoration: none;
+}
+.content-menu__block{
+  padding: 30px;
+  padding-right: 170px;
+  vertical-align: middle;
+  text-align: left;
+
+}
+
+.content-menu__block--interior {
+  position: relative;
+  background-color: #63d1bb;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 53px;
+    height: 83px;
+    right: 30px;
+    top: 10px;
+
+    background-image: url('../img/interior.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+  }
+
+  &:hover   {
+    padding-top: 35px;
+  }
+  &:focus {
+    padding-top: 35px;
+  }
+
+  &:active {
+    padding-top: 30px;
+    color: darken(#ffffff, 15%);
+
+    background-color: darken( #63d1bb, 5%);
+  }
+}
+.content-menu__block--toys {
+  position: relative;
+  background-color: #56c3b2;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 80px;
+    right: 30px;
+    top: 10px;
+
+    background-image: url('../img/toy.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  &:hover   {
+    padding-top: 35px;
+  }
+  &:focus {
+    padding-top: 35px;
+  }
+
+  &:active {
+    padding-top: 30px;
+    color: darken(#ffffff, 15%);
+
+    background-color: darken( #56c3b2, 5%)
+  }
+}

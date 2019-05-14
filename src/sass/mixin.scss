@@ -1,0 +1,43 @@
+@mixin font-bold {
+  font-family: 'open_sansbold', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+@mixin font-regular {
+  font-family: 'open_sansregular', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+@mixin font-size($font-size: 17px, $line-height:30px) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin reset-list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+@mixin button {
+  width: 100%;
+  padding: 15px;
+
+  text-transform: uppercase;
+  @include font-bold;
+  @include font-size (17px, 20px);
+
+  border: 1px solid #000000;
+  background-color: #ffffff;
+
+  &:hover,
+  &:focus {
+    background-color: #444444;
+    color: #ffffff;
+  }
+
+  &:active {
+    color: darken( #ffffff, 30);
+  }
+}
